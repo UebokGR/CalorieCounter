@@ -1,0 +1,13 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "start": "live-server --port=3000"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "live-server": "^1.2.1"
+  }
+}
